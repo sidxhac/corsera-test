@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  
+    background: #d6d6d6;
+  }
+  
+  
+  .topnav {
+    overflow: visible;
+    background-color:transparent;
+    float:top;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .bg {
+    background-color:whitesmoke;
+    background-size: 100px;
+  }
+  .topnav a:hover {
+    background-color:rgb(55, 0, 255);
+    color: rgb(255, 255, 255);
+  }
+  .jumbotron {
+  
+        color:black;
+        padding: 25px;
+        font-family: Montserrat, sans-serif;
+        text-align: center;
+        
+    }
+  
+    .jumbotron h1 {
+      font-size: 60px;
+    }
+  .jumbotron h3 {
+    font-size: 20px;
+  }
+  
+  .col{
+    float: left;
+  }
+  
+  .tile{
+          text-align: center;
+          background-color: white;
+          border: 10px;
+          border-color: black;
+          width: 30%;
+          float: left;
+          scroll-behavior: auto;
+          word-wrap: initial;
+          margin: 5px;
+          padding: 5px;
+          size: 200px;
+  }
+  
+  button{
+    font-size: 15px;
+  }
+  
+  @media (min-width:768px) and (max-width:991px){
+      .tile{
+          width: 55%;
+          margin-right: 5px;
+          margin-left: 10px; 
+      }
+  
+  }
+  
+  @media (max-width:767px){
+  
+      .tile{
+          width: 90%;
+          margin-left: 5%;
+          
+         
+      }
+  
+  }
+
+
+  #main-nav{
+	border-radius: 0;
+	background-color:yellow;
+    padding: 20px;
+}
+
+#nav-items ul li a{
+    color: #000;
+    text-align: center;
+}
+
+#nav-button .icon-bar{
+    border: 10px solid gray;
+}
+
+a.hover{
+    color: blue;
+    background: black;
+}
+
+
+#nav-items ul li a{
+    color: #000;
+    text-align: center;
+}
+
+#nav-button .icon-bar{
+    border: 10px solid gray;
+}
