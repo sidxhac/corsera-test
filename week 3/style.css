@@ -1,0 +1,43 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(224, 224, 224);
+    }
+    #titl{
+        padding: 50px;
+        color: rgb(36, 228, 19);
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+    }
+
+    #tile{
+        color: coral;
+        text-align: center;
+        background-color: white;
+        border: 10px;
+        border-color: black;
+        width: 32%;
+        float: left;
+        margin: 6px;
+    }
+    
+    a{
+        text-align: right;
+        padding: 0px;
+    }
+    #a{
+        background-color:black;
+        font-size: 36px;
+        color: yellow;
+    }
+    #b{
+        background-color:black;
+        font-size: 36px;
+        color: red;
+    }
+    #c{
+        background-color:black;
+        font-size: 36px;
+        color: violet;
+    }
